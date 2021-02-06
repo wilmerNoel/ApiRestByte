@@ -26,7 +26,7 @@ public class Empresa implements Serializable{
 	
 	private String numeroNit;
 
-	private Date fechaFundacion;
+	private String fechaFundacion;
 	
 	private String direccion;
 
@@ -54,11 +54,11 @@ public class Empresa implements Serializable{
 		this.numeroNit = numeroNit;
 	}
 
-	public Date getFechaFundacion() {
+	public String getFechaFundacion() {
 		return fechaFundacion;
 	}
 
-	public void setFechaFundacion(Date fechaFundacion) {
+	public void setFechaFundacion(String fechaFundacion) {
 		this.fechaFundacion = fechaFundacion;
 	}
 
